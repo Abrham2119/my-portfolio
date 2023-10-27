@@ -7,8 +7,21 @@ import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
+import { motion } from "framer-motion";
+
 
 const App = () => {
+  const underMaintainance = true
+  if(underMaintainance){
+    return <div style={{backgroundColor:"white", display:"flex",flexWrap:"wrap",gap:"20px", alignItems:"center",justifyContent:"space-between",padding:"10px"}}> 
+    <h1 style={{fontSize:"80px",textAlign:"center",[`@media (max-width:400px)`]:{backgroundColor:"blue"}}}>Under <div style={{color:"#ff3333"}}>Maintainance</div> <div style={{fontSize:"20px"}}>we will be back soon</div></h1>
+      <img
+        style={{width:"50vw",height:"100vh", objectFit:"cover"}}
+        src="/maintainance.jpg"
+        alt="maintainace-image"
+      />
+      </div>
+  }
   return (
     <div>
       <Cursor />
