@@ -14,7 +14,7 @@ const App = () => {
   const underMaintainance = true
   if(underMaintainance){
     return <div style={{backgroundColor:"white", display:"flex",flexWrap:"wrap",gap:"20px", alignItems:"center",justifyContent:"space-between",padding:"10px"}}> 
-    <h1 style={{fontSize:"60px", color:"gray",textAlign:"center",[`@media (max-width:400px)`]:{backgroundColor:"blue"}}}> <div style={{fontSize:"160px",color:"#ff3333",}}>Oops!</div> Under <span style={{color:"#ff3333"}}>Maintainance</span> <div style={{fontSize:"20px"}}>we will be back soon</div></h1>
+    <h1 style={{fontSize:"60px", color:"gray",textAlign:"center",[`@media (max-width:400px)`]:{backgroundColor:"blue"}}}> <div style={{fontSize:"160px",color:"#ff3333",}}>Oops!</div> Under <span style={{color:"#ff3333"}}>Maintainance</span> <div style={{fontSize:"20px"}}>we will be back soon 🔥</div></h1>
       <img
         style={{width:"50vw",height:"95vh", objectFit:"cover"}}
         src="/maintainance.jpg"
